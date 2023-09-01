@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '{{feature_name.snakeCase()}}_view.dart';
+import '../bloc/{{feature_name.snakeCase()}}_bloc.dart';
 
 class {{feature_name.pascalCase()}}Screen extends StatelessWidget {
   const {{feature_name.pascalCase()}}Screen({super.key});
