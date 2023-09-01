@@ -1,0 +1,59 @@
+{
+  "feature_name": "patient",
+  "events": [
+    {
+      "name": "fetchById",
+      "parameters": [
+        {
+          "name": "id",
+          "type": "String"
+        }
+      ]
+    },
+    {
+      "name": "fetchByEmail",
+      "parameters": [
+        {
+          "name": "email",
+          "type": "String"
+        }
+      ]
+    },
+    {
+      "name": "nameChanged",
+      "parameters": [
+        {
+          "name": "name",
+          "type": "String"
+        }
+      ]
+    },
+    {
+      "name": "clear",
+      "parameters": []
+    }
+  ],
+  "states": [
+    {
+      "type": "String",
+      "name": "id",
+      "use_default": false,
+      "default": "",
+      "required": true
+    },
+    {
+      "type": "String",
+      "name": "name",
+      "use_default": false,
+      "default": "",
+      "required": true
+    },
+    {
+      "type": "String",
+      "name": "lastname",
+      "use_default": false,
+      "default": "",
+      "required": true
+    }
+  ]
+}
